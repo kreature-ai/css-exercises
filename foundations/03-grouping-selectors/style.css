@@ -1,0 +1,19 @@
+.button1, 
+.button2 {
+    /*adds same style rules to both buttons*/
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.button1 {
+    /* adds unique background color to first button */
+   
+    background-color: black;
+    color: white;
+}
+
+.button2 {
+    /* adds yellow background to button 2*/
+
+    background-color: yellow;
+}
