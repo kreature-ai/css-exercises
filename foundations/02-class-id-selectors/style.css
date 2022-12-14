@@ -1,0 +1,8 @@
+.number-one, 
+.number-three, 
+.number-five {
+    /* makes background color and font the same for this class */
+
+    background-color: lightcoral;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
