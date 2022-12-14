@@ -1,8 +1,26 @@
 .number-one, 
 .number-three, 
 .number-five {
-    /* makes background color and font the same for this class */
+    /* grouping selector to make background color and font the same for this class */
 
     background-color: lightcoral;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.number-three {
+    /*increases font size for third element*/
+    font-size: 24px;
+}
+
+#number-two {
+    /*changes font size and color*/
+    color: blue;
+    font-size: 36px;
+}
+
+#number-four {
+    /*changes background color, font size, and font weight*/
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
 }
