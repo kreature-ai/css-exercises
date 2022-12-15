@@ -1,0 +1,10 @@
+.container .text {
+    /* descendant combinator that only affects ancestor (container) 
+    and child (text) */
+
+    background-color: yellow;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+
+}
