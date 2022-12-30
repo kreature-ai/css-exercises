@@ -25,3 +25,23 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Solution */
+
+.header {
+
+}
+
+.content {
+
+}
+
+.footer {
+
+}
+
+ul {
+  /* remove bullets from list and underlines from links */
+  list-style-type: none;
+  text-decoration: none;
+}
