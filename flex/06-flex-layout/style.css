@@ -41,7 +41,11 @@ input {
 }
 
 ul {
-  /* remove bullets from list and underlines from links */
+  /* remove bullets from list */
   list-style-type: none;
+}
+
+a {
+  /* removes underlines from links */
   text-decoration: none;
 }
