@@ -5,6 +5,11 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  /* Solution */
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
 
 img {
@@ -29,23 +34,63 @@ input {
 /* Solution */
 
 .header {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
 
+  /* Centers content */
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
+  /* fixes footer to bottom of page and keeps from shrinking when resized */
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  background-color: #eeeeee;
+  justify-content: space-between;
+  
+}
 
+button {
+  /* Adds padding to buttons */
+  padding: 10px;
 }
 
 ul {
   /* remove bullets from list */
   list-style-type: none;
+
+  /*Changes inherited flex direction*/
+  display: flex;
+  flex-direction: row;
+  
+  /* Adds space between links */
+  gap: 10px;
+
+  /* Removes padding from link */
+  padding: 0;
 }
 
 a {
   /* removes underlines from links */
   text-decoration: none;
+  /* changes text color */
+  color: rgb(90, 90, 90);
+  margin: 12px;
+}
+
+img,
+.input,
+div.buttons {
+  /* Adds padding to logo, buttons, and input */
+  margin: 4px;
 }
